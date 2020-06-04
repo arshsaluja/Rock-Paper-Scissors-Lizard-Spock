@@ -37,7 +37,7 @@ def rpsls(player_choice):
     player_number=name_to_number(player_choice)
     print("Player chooses "+number_to_name(player_number))
     # compute random guess for comp_number using random.randrange()
-    comp_number =random.randrange(4)
+    comp_number =random.randrange(5)#because it returns random nos -0,1,2,3,34
     # convert comp_number to comp_choice using the function number_to_name()
     comp_choice=number_to_name(comp_number)
     # print out message for computer's choice
